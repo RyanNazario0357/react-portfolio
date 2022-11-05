@@ -17,7 +17,7 @@ function About() {
   <hr class="my-4"></hr>
   <p></p>
   <p class="lead">
-  <button type="button" class="btn btn-dark"><a href="https://github.com/RyanNazario0357/react-portfolio/raw/main/public/images/Ryan Nazario Resume New(1).pdf
+  <button type="button" class="btn btn-dark"><a href="https://github.com/RyanNazario0357/react-portfolio/raw/main/public/images/RyanNazarioResumeNew(1).pdf
            " style={linkStyle}>View Full Resume</a></button>
   </p>
 </div>
