@@ -18,7 +18,8 @@ const titleStyle = {
 }
 
 function Wrapper(props) {
-    return <div className="wrapper" style={padding}>{props.children}</div>
+    return <div className="wrapper" 
+    style={padding}>{props.children}</div>
 }
 function Portfolio () {
     return(
@@ -26,7 +27,12 @@ function Portfolio () {
 
             <Wrapper id="project-data">
                 {portfolio.map((project) => (
-                    <ProjectCards key={project.id} image={project.image} name={project.name} github={project.github} deploy={project.deploy} technologies={project.technologies}/>
+                    <ProjectCards key={project.id} 
+                    image={project.image} 
+                    name={project.name} 
+                    github={project.github} 
+                    deploy={project.deploy} 
+                    technologies={project.technologies}/>
                 ))}
             </Wrapper>
         </section>
